@@ -130,7 +130,7 @@ object I18n : ResourceReloadListener {
 
     /**
      * translateWithFallback Here for any translation text that the server sends.
-     * This needs to be used incase of mismatches between server and client
+     * This needs to be used in case of mismatches between server and client
      * translations
      *
      * @param key
