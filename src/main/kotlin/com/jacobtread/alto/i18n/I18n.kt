@@ -25,6 +25,14 @@ object I18n : ResourceReloadListener {
 
     val isBidirectional: Boolean get() = currentLanguage.isBidirectional
 
+    lateinit var resourceManager: ResourceManager
+
+    fun init(resourceManager: ResourceManager, defaultLanguage: String) {
+        this.resourceManager = resourceManager
+        currentLanguageCode = defaultLanguage
+        resourceManager.registerReloadListener(this)
+    }
+
     override fun onResourceReload(resourceManager: ResourceManager) {
         val languages = mutableListOf(DEFAULT_LANGUAGE)
         if (currentLanguageCode != DEFAULT_LANGUAGE) {
@@ -51,6 +59,7 @@ object I18n : ResourceReloadListener {
 
 
     private val translations = HashMap<String, String>()
+    private val fallback = HashMap<String, String>()
     var isUnicode = false
         private set
 
@@ -120,6 +129,36 @@ object I18n : ResourceReloadListener {
     fun translate(key: String): String = translations.getOrDefault(key, key)
 
     /**
+     * translateWithFallback Here for any translation text that the server sends.
+     * This needs to be used incase of mismatches between server and client
+     * translations
+     *
+     * @param key
+     * @return
+     */
+    fun translateWithFallback(key: String): String {
+        if (translations.containsKey(key)) return translations[key]!!
+        if (fallback.containsKey(key)) return fallback[key]!!
+        val fallbackIdentifier = Identifier("alto", "lang/fallback.lang")
+        val resource = resourceManager.getResource(fallbackIdentifier)
+        resource.inputStream.bufferedReader().use {
+            var line: String?
+            do {
+                line = it.readLine()
+                if (line != null && line.startsWith(key)) {
+                    val parts = line.split('=', limit = 2)
+                    if (parts.size == 2) {
+                        val value = FIXER.replace(parts[1], "%$1s")
+                        fallback[key] = value
+                        return value
+                    }
+                }
+            } while (line != null)
+        }
+        return key
+    }
+
+    /**
      * hasKey Checks if the provided [key] is present within the
      * translations' lookup map and returns the result
      *
@@ -141,6 +180,16 @@ object I18n : ResourceReloadListener {
     @JvmStatic
     fun format(key: String, vararg args: Any?): String {
         val translated = translate(key)
+        return try {
+            String.format(translated, *args)
+        } catch (e: IllegalFormatException) {
+            e.printStackTrace()
+            "Format error: $translated"
+        }
+    }
+
+    fun formatWithFallback(key: String, vararg args: Any?): String {
+        val translated = translateWithFallback(key) ?: ""
         return try {
             String.format(translated, *args)
         } catch (e: IllegalFormatException) {
