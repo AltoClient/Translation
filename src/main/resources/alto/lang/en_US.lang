@@ -1,3 +1,7 @@
+language.name=English
+language.region=US
+language.code=en_US
+
 # == Inputs ==
 # Mouse Buttons
 key.mouse.left=Left Button
@@ -130,6 +134,18 @@ key.categories.inventory=Inventory
 # == UI ==
 screenshot.success=Saved screenshot as %s
 screenshot.failure=Couldn't save screenshot: %s
+
+gui.done=Done
+gui.cancel=Cancel
+gui.back=Back
+gui.toTitle=Back to title screen
+gui.toMenu=Back to server list
+gui.up=Up
+gui.down=Down
+gui.yes=Yes
+gui.no=No
+gui.none=None
+gui.all=All
 
 resourcePack.openFolder=Open resource pack folder
 resourcePack.title=Select Resource Packs
