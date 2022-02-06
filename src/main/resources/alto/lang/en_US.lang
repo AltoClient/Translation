@@ -160,6 +160,24 @@ resourcePack.incompatible.confirm.new=This resource pack was made for a newer ve
 
 inventory.destroy=Destroy Item
 
+itemGroup.buildingBlocks=Building Blocks
+itemGroup.decorations=Decoration Blocks
+itemGroup.redstone=Redstone
+itemGroup.transportation=Transportation
+itemGroup.misc=Miscellaneous
+itemGroup.search=Search Items
+itemGroup.food=Foodstuffs
+itemGroup.tools=Tools
+itemGroup.combat=Combat
+itemGroup.brewing=Brewing
+itemGroup.materials=Materials
+itemGroup.inventory=Survival Inventory
+
+
+gui.achievements=Achievements
+gui.stats=Statistics
+
+
 # == Connection ==
 connect.connecting=Connecting to the server...
 connect.authorizing=Logging in...
@@ -200,13 +218,13 @@ attribute.modifier.take.0=-%d %s
 attribute.modifier.take.1=-%d%% %s
 attribute.modifier.take.2=-%d%% %s
 # Naming
-attribute.name.horse.jump_strength=Horse Jump Strength
-attribute.name.zombie.spawn_reinforcements=Zombie Reinforcements
-attribute.name.generic.max_health=Max Health
-attribute.name.generic.follow_range=Mob Follow Range
-attribute.name.generic.knockback_resistance=Knockback Resistance
-attribute.name.generic.movement_speed=Speed
-attribute.name.generic.attack_damage=Attack Damage
+attribute.name.horse.jumpStrength=Horse Jump Strength
+attribute.name.zombie.spawnReinforcements=Zombie Reinforcements
+attribute.name.generic.maxHealth=Max Health
+attribute.name.generic.followRange=Mob Follow Range
+attribute.name.generic.knockbackResistance=Knockback Resistance
+attribute.name.generic.movementSpeed=Speed
+attribute.name.generic.attackDamage=Attack Damage
 
 # == Blocks ==
 # Wood Planks
@@ -232,19 +250,19 @@ tile.stone.diorite.name=Diorite
 tile.stone.smooth_diorite.name=Polished Diorite
 tile.stone.andesite.name=Andesite
 tile.stone.smooth_andesite.name=Polished Andesite
-tile.cobblestone.name=Cobblestone
+tile.stonebrick.name=Cobblestone
 
 # Ores
-tile.coal_block.name=Block of Coal
-tile.diamond_ore.name=Diamond Ore
-tile.diamond_block.name=Block of Diamond
-tile.gold_block.name=Block of Gold
-tile.iron_block.name=Block of Iron
-tile.lapis_block.name=Lapis Lazuli Block
-tile.lapis_ore.name=Lapis Lazuli Ore
-tile.gold_ore.name=Gold Ore
-tile.iron_ore.name=Iron Ore
-tile.coal_ore.name=Coal Ore
+tile.oreCoal.name=Block of Coal
+tile.oreDiamond.name=Diamond Ore
+tile.blockDiamond.name=Block of Diamond
+tile.blockGold.name=Block of Gold
+tile.blockIron.name=Block of Iron
+tile.blockLapis.name=Lapis Lazuli Block
+tile.oreLapis.name=Lapis Lazuli Ore
+tile.oreGold.name=Gold Ore
+tile.oreIron.name=Iron Ore
+tile.oreCoal.name=Coal Ore
 
 tile.cactus.name=Cactus
 # Sand
@@ -254,44 +272,45 @@ tile.sand.red_sand.name=Red Sand
 # Snow
 tile.snow.name=Snow
 # Ice
-tile.packed_ice.name=Packed Ice
-# Netherrack
-tile.netherrack.name=Netherrack
+tile.icePacked.name=Packed Ice
+# Nether
+tile.hellrock.name=Netherrack
+tile.hellsand.name=Soul Sand
+tile.lightgem.name=Glowstone
 # Ladder
 tile.ladder.name=Ladder
 tile.jukebox.name=Jukebox
 
 # Redstone
 tile.hopper.name=Hopper
-tile.daylight_sensor.name=Daylight Sensor
+tile.daylightDetector.name=Daylight Sensor
 tile.dispenser.name=Dispenser
 tile.dropper.name=Dropper
 
 # Fences
 tile.fence.name=Oak Fence
-tile.spruce_fence.name=Spruce Fence
-tile.birch_fence.name=Birch Fence
-tile.jungle_fence.name=Jungle Fence
-tile.dark_oak_fence.name=Dark Oak Fence
-tile.acacia_fence.name=Acacia Fence
+tile.spruceFence.name=Spruce Fence
+tile.birchFence.name=Birch Fence
+tile.jungleFence.name=Jungle Fence
+tile.darkOakFence.name=Dark Oak Fence
+tile.acaciaFence.name=Acacia Fence
 
 # Gates
-tile.fence_gate.name=Oak Fence Gate
-tile.spruce_fence_gate.name=Spruce Fence Gate
-tile.birch_fence_gate.name=Birch Fence Gate
-tile.jungle_fence_gate.name=Jungle Fence Gate
-tile.dark_oak_fence_gate.name=Dark Oak Fence Gate
-tile.acacia_fence_gate.name=Acacia Fence Gate
+tile.fenceGate.name=Oak Fence Gate
+tile.spruceFenceGate.name=Spruce Fence Gate
+tile.birchFenceGate.name=Birch Fence Gate
+tile.jungleFenceGate.name=Jungle Fence Gate
+tile.darkOakFenceGate.name=Dark Oak Fence Gate
+tile.acaciaFenceGate.name=Acacia Fence Gate
 
 # Doors
-tile.wooden_door.name=Wooden Door
-tile.iron_door.name=Iron Door
-item.oak_door.name=Oak Door
-item.spruce_door.name=Spruce Door
-item.birch_door.name=Birch Door
-item.jungle_door.name=Jungle Door
-item.acacia_door.name=Acacia Door
-item.dark_oak_door.name=Dark Oak Door
+tile.doorWood.name=Wooden Door
+item.doorOak.name=Oak Door
+item.doorSpruce.name=Spruce Door
+item.doorBirch.name=Birch Door
+item.doorJungle.name=Jungle Door
+item.doorAcacia.name=Acacia Door
+item.doorDarkOak.name=Dark Oak Door
 
 # Clay
 tile.clay.name=Clay
