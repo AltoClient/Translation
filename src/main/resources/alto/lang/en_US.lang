@@ -1719,3 +1719,27 @@ entity.Minecart.name=Minecart
 entity.Boat.name=Boat
 
 entity.generic.name=unknown
+
+container.inventory=Inventory
+container.hopper=Item Hopper
+container.crafting=Crafting
+container.dispenser=Dispenser
+container.dropper=Dropper
+container.furnace=Furnace
+container.enchant=Enchant
+container.enchant.lapis.one=1 Lapis Lazuli
+container.enchant.lapis.many=%d Lapis Lazuli
+container.enchant.level.one=1 Enchantment Level
+container.enchant.level.many=%d Enchantment Levels
+container.enchant.clue=%s . . . ?
+container.repair=Repair & Name
+container.repair.cost=Enchantment Cost: %1$d
+container.repair.expensive=Too Expensive!
+container.creative=Item Selection
+container.brewing=Brewing Stand
+container.chest=Chest
+container.chestDouble=Large Chest
+container.minecart=Minecart
+container.enderchest=Ender Chest
+container.beacon=Beacon
+container.isLocked=%s is locked!
