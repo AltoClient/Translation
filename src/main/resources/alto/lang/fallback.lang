@@ -13,6 +13,17 @@ tile.stoneSlab.smoothStoneBrick.name=Stone Bricks Slab
 tile.stoneSlab.cobble.name=Cobblestone Slab
 tile.stoneSlab.wood.name=Wooden Slab
 tile.stoneSlab.sand.name=Sandstone Slab
+tile.woodSlab.big_oak.name=Dark Oak Wood Slab
+tile.flower2.blueOrchid.name=Blue Orchid
+tile.flower2.tulipRed.name=Red Tulip
+tile.flower2.tulipOrange.name=Orange Tulip
+tile.flower2.tulipWhite.name=White Tulip
+tile.flower2.tulipPink.name=Pink Tulip
+tile.flower2.oxeyeDaisy.name=Oxeye Daisy
+tile.doublePlant.grass.name=Double Tallgrass
+tile.doublePlant.fern.name=Large Fern
+tile.doublePlant.rose.name=Rose Bush
+
 # Light blue naming changes
 tile.woolCarpet.lightBlue.name=Light Blue Carpet
 tile.clayHardenedStained.lightBlue.name=Light Blue Stained Clay

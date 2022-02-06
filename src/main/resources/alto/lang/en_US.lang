@@ -227,7 +227,9 @@ attribute.name.generic.movementSpeed=Speed
 attribute.name.generic.attackDamage=Attack Damage
 
 # == Blocks ==
-# Wood Planks
+tile.brick.name=Bricks
+tile.tnt.name=TNT
+
 tile.wood.name=Wooden Planks
 tile.wood.oak.name=Oak Wood Planks
 tile.wood.spruce.name=Spruce Wood Planks
@@ -235,22 +237,32 @@ tile.wood.birch.name=Birch Wood Planks
 tile.wood.jungle.name=Jungle Wood Planks
 tile.wood.acacia.name=Acacia Wood Planks
 tile.wood.dark_oak.name=Dark Oak Wood Planks
-# Grass / Dirt
+
+tile.woodSlab.name=Wood Slab
+tile.woodSlab.oak.name=Oak Wood Slab
+tile.woodSlab.spruce.name=Spruce Wood Slab
+tile.woodSlab.birch.name=Birch Wood Slab
+tile.woodSlab.jungle.name=Jungle Wood Slab
+tile.woodSlab.acacia.name=Acacia Wood Slab
+tile.woodSlab.dark_oak.name=Dark Oak Wood Slab
+
 tile.grass.name=Grass Block
 tile.dirt.name=Dirt
 tile.dirt.dirt.name=Dirt
 tile.dirt.coarse_dirt.name=Coarse Dirt
 tile.dirt.podzol.name=Podzol
 
-# Slabs
+tile.stoneSlab.name=Stone Slab
 tile.stoneSlab.nether_brick.name=Nether Brick Slab
 tile.stoneSlab.stone_brick.name=Stone Bricks Slab
 tile.stoneSlab.cobblestone.name=Cobblestone Slab
 tile.stoneSlab.wood_old.name=Wooden Slab
 tile.stoneSlab.sandstone.name=Sandstone Slab
+tile.stoneSlab.nether_brick.name=Nether Brick Slab
+tile.stoneSlab.quartz.name=Quartz Slab
+tile.stoneSlab.brick.name=Bricks Slab
+tile.stoneSlab.stone.name=Stone Slab
 
-
-# Stone / Cobblestone
 tile.stone.stone.name=Stone
 tile.stone.granite.name=Granite
 tile.stone.smooth_granite.name=Polished Granite
@@ -260,7 +272,6 @@ tile.stone.andesite.name=Andesite
 tile.stone.smooth_andesite.name=Polished Andesite
 tile.stonebrick.name=Cobblestone
 
-# Ores
 tile.oreCoal.name=Block of Coal
 tile.oreDiamond.name=Diamond Ore
 tile.blockDiamond.name=Block of Diamond
@@ -272,30 +283,56 @@ tile.oreGold.name=Gold Ore
 tile.oreIron.name=Iron Ore
 tile.oreCoal.name=Coal Ore
 
+tile.bookshelf.name=Bookshelf
+tile.stoneMoss.name=Moss Stone
+tile.obsidian.name=Obsidian
+tile.torch.name=Torch
+tile.fire.name=Fire
+
+tile.mobSpawner.name=Monster Spawner
+tile.stairsWood.name=Oak Wood Stairs
+tile.stairsWoodSpruce.name=Spruce Wood Stairs
+tile.stairsWoodBirch.name=Birch Wood Stairs
+tile.stairsWoodJungle.name=Jungle Wood Stairs
+tile.stairsWoodAcacia.name=Acacia Wood Stairs
+tile.stairsWoodDarkOak.name=Dark Oak Wood Stairs
+tile.crops.name=Crops
+tile.farmland.name=Farmland
+tile.furnace.name=Furnace
+tile.sign.name=Sign
+tile.rail.name=Rail
+tile.goldenRail.name=Powered Rail
+tile.activatorRail.name=Activator Rail
+tile.detectorRail.name=Detector Rail
+tile.stairsStone.name=Cobblestone Stairs
+tile.stairsSandStone.name=Sandstone Stairs
+tile.stairsRedSandStone.name=Red Sandstone Stairs
+tile.lever.name=Lever
+tile.pressurePlateStone.name=Stone Pressure Plate
+tile.pressurePlateWood.name=Wooden Pressure Plate
+tile.weightedPlate_light.name=Weighted Pressure Plate (Light)
+tile.weightedPlate_heavy.name=Weighted Pressure Plate (Heavy)
+tile.chest.name=Chest
+tile.chestTrap.name=Trapped Chest
+tile.redstoneDust.name=Redstone Dust
+tile.workbench.name=Crafting Table
+
 tile.cactus.name=Cactus
-# Sand
 tile.sand.name=Sand
 tile.sand.sand.name=Sand
 tile.sand.red_sand.name=Red Sand
-# Snow
 tile.snow.name=Snow
-# Ice
 tile.icePacked.name=Packed Ice
-# Nether
 tile.hellrock.name=Netherrack
 tile.hellsand.name=Soul Sand
 tile.lightgem.name=Glowstone
-# Ladder
 tile.ladder.name=Ladder
 tile.jukebox.name=Jukebox
-
-# Redstone
 tile.hopper.name=Hopper
 tile.daylightDetector.name=Daylight Sensor
 tile.dispenser.name=Dispenser
 tile.dropper.name=Dropper
 
-# Fences
 tile.fence.name=Oak Fence
 tile.spruceFence.name=Spruce Fence
 tile.birchFence.name=Birch Fence
@@ -303,7 +340,6 @@ tile.jungleFence.name=Jungle Fence
 tile.darkOakFence.name=Dark Oak Fence
 tile.acaciaFence.name=Acacia Fence
 
-# Gates
 tile.fenceGate.name=Oak Fence Gate
 tile.spruceFenceGate.name=Spruce Fence Gate
 tile.birchFenceGate.name=Birch Fence Gate
@@ -311,7 +347,6 @@ tile.jungleFenceGate.name=Jungle Fence Gate
 tile.darkOakFenceGate.name=Dark Oak Fence Gate
 tile.acaciaFenceGate.name=Acacia Fence Gate
 
-# Doors
 tile.doorWood.name=Wooden Door
 item.doorOak.name=Oak Door
 item.doorSpruce.name=Spruce Door
@@ -320,8 +355,64 @@ item.doorJungle.name=Jungle Door
 item.doorAcacia.name=Acacia Door
 item.doorDarkOak.name=Dark Oak Door
 
-# Clay
 tile.clay.name=Clay
+tile.thinGlass.name=Glass Pane
+tile.cloth.name=Wool
+
+tile.stainedGlass.name=Stained Glass
+tile.stainedGlass.black.name=Black Stained Glass
+tile.stainedGlass.red.name=Red Stained Glass
+tile.stainedGlass.green.name=Green Stained Glass
+tile.stainedGlass.brown.name=Brown Stained Glass
+tile.stainedGlass.blue.name=Blue Stained Glass
+tile.stainedGlass.purple.name=Purple Stained Glass
+tile.stainedGlass.cyan.name=Cyan Stained Glass
+tile.stainedGlass.silver.name=Light Gray Stained Glass
+tile.stainedGlass.gray.name=Gray Stained Glass
+tile.stainedGlass.pink.name=Pink Stained Glass
+tile.stainedGlass.lime.name=Lime Stained Glass
+tile.stainedGlass.yellow.name=Yellow Stained Glass
+tile.stainedGlass.light_blue.name=Light Blue Stained Glass
+tile.stainedGlass.magenta.name=Magenta Stained Glass
+tile.stainedGlass.orange.name=Orange Stained Glass
+tile.stainedGlass.white.name=White Stained Glass
+tile.thinStainedGlass.name=Stained Glass Pane
+tile.thinStainedGlass.black.name=Black Stained Glass Pane
+tile.thinStainedGlass.red.name=Red Stained Glass Pane
+tile.thinStainedGlass.green.name=Green Stained Glass Pane
+tile.thinStainedGlass.brown.name=Brown Stained Glass Pane
+tile.thinStainedGlass.blue.name=Blue Stained Glass Pane
+tile.thinStainedGlass.purple.name=Purple Stained Glass Pane
+tile.thinStainedGlass.cyan.name=Cyan Stained Glass Pane
+tile.thinStainedGlass.silver.name=Light Gray Stained Glass Pane
+tile.thinStainedGlass.gray.name=Gray Stained Glass Pane
+tile.thinStainedGlass.pink.name=Pink Stained Glass Pane
+tile.thinStainedGlass.lime.name=Lime Stained Glass Pane
+tile.thinStainedGlass.yellow.name=Yellow Stained Glass Pane
+tile.thinStainedGlass.light_blue.name=Light Blue Stained Glass Pane
+tile.thinStainedGlass.magenta.name=Magenta Stained Glass Pane
+tile.thinStainedGlass.orange.name=Orange Stained Glass Pane
+tile.thinStainedGlass.white.name=White Stained Glass Pane
+tile.flower2.blue_orchid.name=Blue Orchid
+tile.flower2.red_tulip.name=Red Tulip
+tile.flower2.orange_tulip.name=Orange Tulip
+tile.flower2.white_tulip.name=White Tulip
+tile.flower2.pink_tulip.name=Pink Tulip
+tile.flower2.oxeye_daisy.name=Oxeye Daisy
+tile.flower1.name=Flower
+tile.flower1.dandelion.name=Dandelion
+tile.flower2.name=Flower
+tile.flower2.poppy.name=Poppy
+tile.flower2.allium.name=Allium
+tile.flower2.houstonia.name=Azure Bluet
+tile.doublePlant.double_grass.name=Double Tallgrass
+tile.doublePlant.double_fern.name=Large Fern
+tile.doublePlant.double_rose.name=Rose Bush
+tile.doublePlant.name=Plant
+tile.doublePlant.sunflower.name=Sunflower
+tile.doublePlant.syringa.name=Lilac
+tile.doublePlant.grass.name=Double Tallgrass
+tile.doublePlant.paeonia.name=Peony
 
 # == Banners ==
 item.banner.black.name=Black Banner
