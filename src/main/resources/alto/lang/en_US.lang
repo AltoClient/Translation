@@ -2415,3 +2415,28 @@ chat.link.confirmTrusted=Do you want to open this link or copy it to your clipbo
 chat.link.open=Open in browser
 
 record.nowPlaying=Now playing: %s
+
+difficulty.lock.title=Lock World Difficulty
+difficulty.lock.question=Are you sure you want to lock the difficulty of this world? This will set this world to always be %1$s, and you will never be able to change that again.
+
+controls.title=Controls
+controls.reset=Reset
+controls.resetAll=Reset Keys
+
+sign.edit=Edit sign message
+
+
+merchant.deprecated=Trade something else to unlock!
+
+tile.barrier.name=Barrier
+tile.hayBlock.name=Hay Bale
+
+tile.sandStone.name=Sandstone
+tile.sandStone.sandstone.name=Sandstone
+tile.sandStone.chiseled_sandstone.name=Chiseled Sandstone
+tile.sandStone.smooth_sandstone.name=Smooth Sandstone
+
+tile.redSandStone.name=Red Sandstone
+tile.redSandStone.red_sandstone.name=Red Sandstone
+tile.redSandStone.chiseled_red_sandstone.name=Chiseled Red Sandstone
+tile.redSandStone.smooth_red_sandstone.name=Smooth Red Sandstone

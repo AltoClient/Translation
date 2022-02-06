@@ -23,7 +23,12 @@ tile.flower2.oxeyeDaisy.name=Oxeye Daisy
 tile.doublePlant.grass.name=Double Tallgrass
 tile.doublePlant.fern.name=Large Fern
 tile.doublePlant.rose.name=Rose Bush
-
+tile.sandStone.default.name=Sandstone
+tile.sandStone.chiseled.name=Chiseled Sandstone
+tile.sandStone.smooth.name=Smooth Sandstone
+tile.redSandStone.default.name=Red Sandstone
+tile.redSandStone.chiseled.name=Chiseled Red Sandstone
+tile.redSandStone.smooth.name=Smooth Red Sandstone
 # Light blue naming changes
 tile.woolCarpet.lightBlue.name=Light Blue Carpet
 tile.clayHardenedStained.lightBlue.name=Light Blue Stained Clay
