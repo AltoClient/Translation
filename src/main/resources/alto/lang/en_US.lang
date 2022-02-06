@@ -1384,3 +1384,80 @@ commands.title.usage.clear=/title <player> clear|reset
 commands.title.usage.times=/title <player> times <fadeIn> <stay> <fadeOut>
 commands.title.success=Title command successfully executed
 
+stats.tooltip.type.achievement=Achievement
+stats.tooltip.type.statistic=Statistic
+stat.generalButton=General
+stat.blocksButton=Blocks
+stat.itemsButton=Items
+stat.mobsButton=Mobs
+
+stat.used=Times Used
+stat.mined=Times Mined
+stat.depleted=Times Depleted
+stat.crafted=Times Crafted
+stat.entityKills=You killed %d %s
+stat.entityKilledBy=%s killed you %d time(s)
+stat.entityKills.none=You have never killed %s
+stat.entityKilledBy.none=You have never been killed by %s
+
+stat.startGame=Times played
+stat.createWorld=Worlds created
+stat.loadWorld=Saves loaded
+stat.joinMultiplayer=Multiplayer joins
+stat.leaveGame=Games quit
+
+stat.playOneMinute=Minutes Played
+stat.timeSinceDeath=Since Last Death
+
+stat.walkOneCm=Distance Walked
+stat.crouchOneCm=Distance Crouched
+stat.sprintOneCm=Distance Sprinted
+stat.fallOneCm=Distance Fallen
+stat.swimOneCm=Distance Swum
+stat.flyOneCm=Distance Flown
+stat.climbOneCm=Distance Climbed
+stat.diveOneCm=Distance Dove
+stat.minecartOneCm=Distance by Minecart
+stat.boatOneCm=Distance by Boat
+stat.pigOneCm=Distance by Pig
+stat.horseOneCm=Distance by Horse
+stat.jump=Jumps
+stat.drop=Items Dropped
+
+stat.damageDealt=Damage Dealt
+stat.damageTaken=Damage Taken
+stat.deaths=Number of Deaths
+stat.mobKills=Mob Kills
+stat.animalsBred=Animals Bred
+stat.playerKills=Player Kills
+stat.fishCaught=Fish Caught
+stat.treasureFished=Treasure Fished
+stat.junkFished=Junk Fished
+stat.talkedToVillager=Talked to Villagers
+stat.tradedWithVillager=Traded with Villagers
+
+stat.cakeSlicesEaten=Cake Slices Eaten
+stat.cauldronFilled=Cauldrons Filled
+stat.cauldronUsed=Water Taken from Cauldron
+stat.armorCleaned=Armor Pieces Cleaned
+stat.bannerCleaned=Banners Cleaned
+stat.brewingstandInteraction=Interactions with Brewing Stand
+stat.beaconInteraction=Interactions with Beacon
+stat.dropperInspected=Droppers Searched
+stat.hopperInspected=Hoppers Searched
+stat.dispenserInspected=Dispensers Searched
+stat.noteblockPlayed=Noteblocks played
+stat.noteblockTuned=Noteblocks tuned
+stat.flowerPotted=Plants potted
+stat.trappedChestTriggered=Trapped Chests Triggered
+stat.enderchestOpened=Ender Chests Opened
+stat.itemEnchanted=Items Enchanted
+stat.recordPlayed=Records Played
+stat.furnaceInteraction=Interactions with Furnace
+stat.workbenchInteraction=Interactions with Crafting Table
+stat.chestOpened=Chests Opened
+
+stat.mineBlock=%1$s Mined
+stat.craftItem=%1$s Crafted
+stat.useItem=%1$s Used
+stat.breakItem=%1$s Depleted
