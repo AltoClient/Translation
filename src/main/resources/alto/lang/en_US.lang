@@ -238,9 +238,17 @@ tile.wood.dark_oak.name=Dark Oak Wood Planks
 # Grass / Dirt
 tile.grass.name=Grass Block
 tile.dirt.name=Dirt
-tile.dirt.default.name=Dirt
+tile.dirt.dirt.name=Dirt
 tile.dirt.coarse_dirt.name=Coarse Dirt
 tile.dirt.podzol.name=Podzol
+
+# Slabs
+tile.stoneSlab.nether_brick.name=Nether Brick Slab
+tile.stoneSlab.stone_brick.name=Stone Bricks Slab
+tile.stoneSlab.cobblestone.name=Cobblestone Slab
+tile.stoneSlab.wood_old.name=Wooden Slab
+tile.stoneSlab.sandstone.name=Sandstone Slab
+
 
 # Stone / Cobblestone
 tile.stone.stone.name=Stone

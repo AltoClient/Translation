@@ -8,6 +8,11 @@ tile.stone.andesiteSmooth.name=Polished Andesite
 tile.sand.default.name=Sand
 tile.sand.red.name=Red Sand
 tile.dirt.coarse.name=Coarse Dirt
+tile.stoneSlab.netherBrick.name=Nether Brick Slab
+tile.stoneSlab.smoothStoneBrick.name=Stone Bricks Slab
+tile.stoneSlab.cobble.name=Cobblestone Slab
+tile.stoneSlab.wood.name=Wooden Slab
+tile.stoneSlab.sand.name=Sandstone Slab
 # Light blue naming changes
 tile.woolCarpet.lightBlue.name=Light Blue Carpet
 tile.clayHardenedStained.lightBlue.name=Light Blue Stained Clay
