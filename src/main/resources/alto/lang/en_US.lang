@@ -2440,3 +2440,138 @@ tile.redSandStone.name=Red Sandstone
 tile.redSandStone.red_sandstone.name=Red Sandstone
 tile.redSandStone.chiseled_red_sandstone.name=Chiseled Red Sandstone
 tile.redSandStone.smooth_red_sandstone.name=Smooth Red Sandstone
+
+
+tile.log.name=Wood
+tile.log.oak.name=Oak Wood
+tile.log.spruce.name=Spruce Wood
+tile.log.birch.name=Birch Wood
+tile.log.jungle.name=Jungle Wood
+tile.log.acacia.name=Acacia Wood
+tile.log.dark_oak.name=Dark Oak Wood
+
+
+tile.leaves.name=Leaves
+tile.leaves.oak.name=Oak Leaves
+tile.leaves.spruce.name=Spruce Leaves
+tile.leaves.birch.name=Birch Leaves
+tile.leaves.jungle.name=Jungle Leaves
+tile.leaves.acacia.name=Acacia Leaves
+tile.leaves.dark_oak.name=Dark Oak Leaves
+
+tile.musicBlock.name=Note Block
+tile.cake.name=Cake
+tile.bed.name=Bed
+
+tile.mushroom.name=Mushroom
+tile.pistonBase.name=Piston
+tile.pistonStickyBase.name=Sticky Piston
+tile.fenceIron.name=Iron Bars
+tile.melon.name=Melon
+tile.stairsBrick.name=Brick Stairs
+tile.stairsStoneBrickSmooth.name=Stone Brick Stairs
+tile.vine.name=Vines
+tile.netherBrick.name=Nether Brick
+tile.netherFence.name=Nether Brick Fence
+tile.stairsNetherBrick.name=Nether Brick Stairs
+tile.netherStalk.name=Nether Wart
+tile.cauldron.name=Cauldron
+tile.prismarine.prismarine.name=Prismarine
+tile.prismarine.prismarine_bricks.name=Prismarine Bricks
+tile.prismarine.dark_prismarine.name=Dark Prismarine
+tile.stairsQuartz.name=Quartz Stairs
+tile.slime.name=Slime Block
+tile.seaLantern.name=Sea Lantern
+
+tile.quartzBlock.lines_x.name=Pillar Quartz Block
+tile.quartzBlock.lines_y.name=Pillar Quartz Block
+tile.quartzBlock.lines_z.name=Pillar Quartz Block
+
+tile.netherquartz.name=Nether Quartz Ore
+tile.quartzBlock.name=Block of Quartz
+tile.quartzBlock.default.name=Block of Quartz
+tile.quartzBlock.chiseled.name=Chiseled Quartz Block
+
+
+advMode.setCommand=Set Console Command for Block
+advMode.setCommand.success=Command set: %s
+advMode.command=Console Command
+advMode.nearestPlayer=Use "@p" to target nearest player
+advMode.randomPlayer=Use "@r" to target random player
+advMode.allPlayers=Use "@a" to target all players
+advMode.allEntities=Use "@e" to target all entities
+advMode.previousOutput=Previous Output
+
+tile.cobbleWall.cobblestone.name=Cobblestone Wall
+tile.cobbleWall.mossy_cobblestone.name=Mossy Cobblestone Wall
+
+tile.redstoneLight.name=Redstone Lamp
+tile.cocoa.name=Cocoa
+tile.enderChest.name=Ender Chest
+tile.oreRuby.name=Ruby Ore
+tile.oreEmerald.name=Emerald Ore
+tile.blockEmerald.name=Block of Emerald
+tile.blockRedstone.name=Block of Redstone
+tile.tripWire.name=Tripwire
+tile.tripWireSource.name=Tripwire Hook
+tile.commandBlock.name=Command Block
+tile.beacon.name=Beacon
+tile.beacon.primary=Primary Power
+tile.beacon.secondary=Secondary Power
+mount.onboard=Press %1$s to dismount
+
+
+tile.enchantmentTable.name=Enchantment Table
+tile.anvil.name=Anvil
+tile.anvil.intact.name=Anvil
+tile.anvil.slightlyDamaged.name=Slightly Damaged Anvil
+tile.anvil.veryDamaged.name=Very Damaged Anvil
+tile.whiteStone.name=End Stone
+tile.endPortalFrame.name=End Portal
+tile.mycel.name=Mycelium
+tile.waterlily.name=Lily Pad
+tile.dragonEgg.name=Dragon Egg
+
+tile.stonebricksmooth.name=Stone Bricks
+tile.stonebricksmooth.stonebrick.name=Stone Bricks
+tile.stonebricksmooth.mossy_stonebrick.name=Mossy Stone Bricks
+tile.stonebricksmooth.cracked_stonebrick.name=Cracked Stone Bricks
+tile.stonebricksmooth.chiseled_stonebrick.name=Chiseled Stone Bricks
+
+tile.monsterStoneEgg.cobblestone.name=Cobblestone Monster Egg
+tile.monsterStoneEgg.stone_brick.name=Stone Brick Monster Egg
+tile.monsterStoneEgg.mossy_brick.name=Mossy Stone Brick Monster Egg
+tile.monsterStoneEgg.cracked_brick.name=Cracked Stone Brick Monster Egg
+tile.monsterStoneEgg.chiseled_brick.name=Chiseled Stone Brick Monster Egg
+
+tile.bed.occupied=This bed is occupied
+tile.bed.noSleep=You can only sleep at night
+tile.bed.notSafe=You may not rest now, there are monsters nearby
+tile.bed.notValid=Your home bed was missing or obstructed
+tile.lockedchest.name=Locked chest
+tile.trapdoor.name=Wooden Trapdoor
+tile.ironTrapdoor.name=Iron Trapdoor
+tile.web.name=Cobweb
+tile.monsterStoneEgg.name=Stone Monster Egg
+tile.monsterStoneEgg.stone.name=Stone Monster Egg
+
+tile.sapling.oak.name=Oak Sapling
+tile.sapling.spruce.name=Spruce Sapling
+tile.sapling.birch.name=Birch Sapling
+tile.sapling.jungle.name=Jungle Sapling
+tile.sapling.acacia.name=Acacia Sapling
+tile.sapling.dark_oak.name=Dark Oak Sapling
+
+tile.deadbush.name=Dead Bush
+tile.bedrock.name=Bedrock
+tile.water.name=Water
+tile.lava.name=Lava
+
+tile.tallgrass.name=Grass
+tile.tallgrass.shrub.name=Shrub
+tile.tallgrass.grass.name=Grass
+tile.tallgrass.fern.name=Fern
+tile.sponge.dry.name=Sponge
+tile.sponge.wet.name=Wet Sponge
+tile.glass.name=Glass
+
