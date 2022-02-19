@@ -10,6 +10,7 @@ import com.jacobtread.alto.utils.resource.meta.LanguageMetadataSection
 import com.jacobtread.alto.utils.resource.meta.MetadataSerializer
 import java.io.IOException
 import java.util.*
+import kotlin.math.min
 
 object I18n : ResourceReloadListener {
 
@@ -206,7 +207,8 @@ object I18n : ResourceReloadListener {
  * @see I18n.translate The underlying function
  * @return The translated value
  */
-fun String.i18n(): String = I18n.translate(this)
+@Suppress("NOTHING_TO_INLINE") // Inline this function call because its direct anyway
+inline fun String.i18n(): String = I18n.translate(this)
 
 /**
  * i18n Shorter way to access translations through a string
@@ -216,4 +218,7 @@ fun String.i18n(): String = I18n.translate(this)
  * @see I18n.format The underlying function
  * @return The translated value
  */
-fun String.i18n(vararg parameters: Any): String = I18n.format(this, *parameters)
+@Suppress("NOTHING_TO_INLINE") // Inline this function call because its direct anyway
+inline fun String.i18n(vararg parameters: Any): String = I18n.format(this, *parameters)
+
+
