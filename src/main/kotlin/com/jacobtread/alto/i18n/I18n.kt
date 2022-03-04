@@ -190,7 +190,7 @@ object I18n : ResourceReloadListener {
     }
 
     fun formatWithFallback(key: String, vararg args: Any?): String {
-        val translated = translateWithFallback(key) ?: ""
+        val translated = translateWithFallback(key)
         return try {
             String.format(translated, *args)
         } catch (e: IllegalFormatException) {
